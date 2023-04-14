@@ -19,7 +19,7 @@ function App() {
     <div className="container">
       <h1>Liste des parties de la journée</h1>
       {partsOfDays.map((partOfDay) => (
-        <ul key={partOfDay.attributes.id}>
+        <ul key={partOfDay.id}>
           <li>{partOfDay.attributes.day}</li>
         </ul>
       ))}
